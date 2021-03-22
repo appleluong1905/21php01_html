@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "myTestFont";
+	src: url('../GreatVibes-Regular.ttf');
+}
+.welcome {
+	font-family: "myTestFont";
+	font-size: 50px;
+	/*Chiều cao của đối tượng*/
+	height: 200px;
+	/*Border của đối tượng*/
+	border: 1px solid green;
+	/*Cân giữa đối tượng theo chiều ngang*/
+	text-align: center;
+	/*Cân giữa đối tượng theo chiều dọc*/
+	line-height: 200px;
+}
+.demo1 {
+	/*text-transform: uppercase; */
+	text-transform: lowercase;
+}
+.demo2 {
+	color: red;
+	font-size: 30px;
+	text-decoration: line-through;
+	/*underline, overline*/
+}
+.demo3 {
+	color: green;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-shadow: -5px -4px 3px yellow;
+}

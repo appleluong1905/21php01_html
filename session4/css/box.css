@@ -1,0 +1,7 @@
+.demo {
+	height: 200px;
+	width: 300px;
+	border: 1px dashed green;
+	padding: 30px;
+	margin: 50px;
+}
