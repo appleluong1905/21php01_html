@@ -1,0 +1,58 @@
+body {
+	background-color: #ada;
+}
+.container {
+	height: 300px;
+}
+.news1 {
+	border: 1px solid green;
+	height: 100px;
+	width: 30%;
+	float: left;
+}
+.news2 {
+	border: 1px solid green;
+	height: 100px;
+	width: 30%;
+	float: left;
+}
+.news3 {
+	border: 1px solid green;
+	height: 100px;
+	width: 30%;
+	float: left;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	body {
+		background-color: yellow;
+	}
+	.news1, .news2 {
+		width: 48%;
+	}
+	.news3 {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 960px) {
+	body {
+		background-color: blue;
+	}
+}
+@media screen and (max-width: 768px) {
+	body {
+		background-color: green;
+	}
+	.news1, .news2, .news3 {
+		width: 100%;
+		border: 1px solid red;
+	}
+
+}
+@media screen and (max-width: 560px) {
+	body {
+		background-color: black;
+	}
+}

@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;	
+}
+/*.box1 {
+	width: 300px;
+	height: 100px;
+	border: 2px solid green;
+	padding: 30px;
+	margin: 50px;
+}
+.box2 {
+	width: 400px;
+	height: 500px;
+	border: 5px dotted blue;
+	border-top: 10px dashed red;
+	/*top
+	bottom 
+	left 
+	right*/
+	padding-left: 20px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	padding-right: 100px;
+}
+*/
+.main {
+	width: 800px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+.left {
+	height: 100px;
+	border: 1px solid black;
+	width: 300px;
+	float: left;
+}
+.right {
+	height: 100px;
+	border: 1px solid black;
+	width: 496px;
+	float: left;
+}
