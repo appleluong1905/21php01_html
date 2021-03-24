@@ -55,4 +55,11 @@ body {
 	body {
 		background-color: black;
 	}
+	.news1, .news2, .news3 {
+		color: white;
+	}
+
+	.news1 {
+		display: none;
+	}
 }
