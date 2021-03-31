@@ -1,14 +1,12 @@
 table {
 	width: 800px;
+	margin: 0 auto;
 	border-collapse: collapse;
 }
 table, tr, th, td {
-	border: 1px solid grey;
+	border: 1px solid black;
+	text-align: center;
 }
 thead, tfoot {
 	background-color: #ada;
-}
-tr:nth-child(even) {
-	color: red;
-	background-color: grey;
 }

@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Table example</title>
-	<link rel="stylesheet" href="css/table.css">
+	<title>Row and col example</title>
+	<link rel="stylesheet" href="css/row-col.css">
 </head>
 <body>
 	<table>
 		<thead>
 			<tr>
-				<th>STT</th>
+				<th rowspan="2">STT</th>
+				<th colspan="2">Thông tin cá nhân</th>
+				<!-- <th>Thông tin cá nhân</th> -->
+			</tr>
+			<tr>
+				<!-- <th>STT</th> -->
 				<th>Họ tên</th>
 				<th>Số điện thoại</th>
 			</tr>
@@ -40,6 +45,11 @@
 				<th>STT</th>
 				<th>Họ tên</th>
 				<th>Số điện thoại</th>
+			</tr>
+			<tr>
+				<th>STT</th>
+				<th>Thông tin cá nhân</th>
+				<th>Thông tin cá nhân</th>
 			</tr>
 		</tfoot>
 	</table>
