@@ -1,0 +1,9 @@
+ul li {
+	list-style-type: square;
+}
+ul li.html02 {
+	list-style-image: url('../favicon-16x16.png');
+}
+ol li {
+	list-style-type: upper-alpha;
+}
