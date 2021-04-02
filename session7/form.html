@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form example</title>
+</head>
+<body>
+	<h1>Register form</h1>
+	<form name="register" action="#" method="POST" target="_blank">
+		<!-- Có 2 phương thức của form là POST hoặc GET -->
+		<p>
+			Username: <input type="text" name="username">
+		</p>
+		<p>
+			Password: <input type="password" name="password">
+		</p>
+		<p>
+			Avatar: <input type="file" name="avatar">
+		</p>
+		<p>
+			Gender:
+			<input type="radio" name="gender" value="male"> Male
+			<input type="radio" name="gender" value="female"> Female
+			<input type="radio" name="gender" value="other"> Other
+		</p>
+		<p>
+			Favourites:
+			<input type="checkbox" name="film"> Film
+			<input type="checkbox" name="shoping"> Shoping
+			<input type="checkbox" name="football"> Football
+		</p>
+		<p>
+			City:
+			<select>
+				<option>Hà Nội</option>
+				<option>Đà Nẵng</option>
+				<option>Hồ Chí Minh</option>
+			</select>
+		</p>
+		<p>
+			<input type="submit" name="register" value="Register">
+		</p>
+		
+	</form>
+</body>
+</html>

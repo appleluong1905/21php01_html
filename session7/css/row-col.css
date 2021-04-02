@@ -1,5 +1,8 @@
+.my-table {
+	overflow-x: scroll;
+}
 table {
-	width: 800px;
+	width: 2000px;
 	margin: 0 auto;
 	border-collapse: collapse;
 }
