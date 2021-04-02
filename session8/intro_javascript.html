@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro javascript</title>
+	<!-- Internal -->
+	<style>
+		#box-demo {
+			height: 200px;
+			width: 300px;
+			border: 1px solid black;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<!-- Inline -->
+	<p onclick="alert('Test click')">Click me</p>
+
+	<div id="demo">Test click</div>
+	<!-- HTML external -->
+	<div id="test_external" onclick="testExternal();">Demo external</div>
+	<!-- Có thể thay đổi nội dung HTML -->
+	<div id="change_content">Đây là nội dung đầu tiên</div>
+	<a href="#" onmouseover="change_content();" onmouseleave="change_content_2();">Change content</a>
+	<!-- Có thể thay đổi thuộc tính HTML -->
+	<img src="img/messi.jpg" alt="Test image" id="change_image" width="200" height="200">
+	<a href="#" onclick="changeImage();">Change image</a>
+	----
+	<img src="img/bulb_on.jpg" alt="Test image" id="bulb" width="300" height="400">
+	<a href="#" onclick="changeOn();">ON</a> | <a href="#" onclick="changeOff();">OFF</a>
+	<!-- Có thể thay đổi thuộc tính HTML -->
+	<div id="box-demo"></div>
+	<a href="#" onclick="changeStyle();">Change style HTML</a>
+	<!-- Có thể ẩn đối tượng HTML -->
+	<a href="#" onclick="hideImage();">Hide image</a>
+	<!-- Có thể hiển thị đối tượng HTML -->
+	<a href="#" onclick="showImage();">Show image</a>
+	<!-- Internal -->
+	<script type="text/javascript">
+		document.getElementById("demo").innerHTML = "Hello World";
+		document.getElementById("demo").style.color = "red";
+	</script>
+	<!-- External -->
+	<script type="text/javascript" src="js/intro_javascript.js"></script>
+</body>
+</html>
