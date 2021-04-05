@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example JS form</title>
+	<link rel="stylesheet" href="css/example.css">
+</head>
+<body>
+	<div class="container">
+		<div class="main1">
+			<div class="content1" onclick="changeInfoMessi()">
+				<img src="img/m10.jpg" alt="" class="small-image">
+			</div>
+			<div class="content2"  onclick="changeInfoRonaldo()">
+				<img src="img/cr7.jpg" alt="" class="small-image">
+			</div>
+			<div class="content3" onclick="changeInfo('Kaka', 'img/kaka.jpg', '38 years old')">
+				<img src="img/kaka.jpg" alt="" class="small-image">
+			</div>
+			<div class="content4"  onclick="changeInfo('Nani', 'img/nani.jpg', '34 years old')">
+				<img src="img/nani.jpg" alt="" class="small-image">
+			</div>
+		</div>
+		<div class="main2">
+			<img src="img/no-image.png" alt="" class="large-image" id="change-image">
+			<p>Name:<span id="change-name">No name</span></p>
+			<p>Age:<span id="change-age"> 0 </span></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/example.js"></script>
+</body>
+</html>
