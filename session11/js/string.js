@@ -89,3 +89,16 @@ while (myFullname.indexOf(findChar) > -1) {
 }
 document.write("<br> So ky tu " + findChar + " trong ten la: ");
 document.write(countChar);
+document.write("<br>");
+// Tam giác cân
+var n = 10;
+var i, j;
+for (i = 0; i < n; i++) {
+	for (j = i; j < n; j++) {
+		document.write("<span class = 'red'> &nbsp;&nbsp; </span>");
+	}
+	for (k = 0; k <= 2*i; k++) {
+		document.write("<span class = 'green'>* </span>");
+	}
+	document.write("<br>");
+}
